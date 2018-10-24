@@ -1,7 +1,7 @@
 Datavisualisatie 2018-2019 - David Heremans
 =======
 
-Deze repo is gemaakt in voor het vak 'Datavisualisatie' voor de opleiding Multec.
+Dit is gemaakt voor het vak datavisualisatie.
 
 ## Assignment 1
 
