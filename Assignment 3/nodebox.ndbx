@@ -5,6 +5,9 @@
     <property name="canvasX" value="0"/>
     <property name="canvasY" value="0"/>
     <node name="root" prototype="core.network" renderedChild="translate1">
+        <node name="add1" position="1.00,6.00" prototype="math.add">
+            <port name="value1" type="float" value="11.0"/>
+        </node>
         <node name="align1" position="4.00,7.00" prototype="corevector.align">
             <port name="position" type="point" value="11.00,6.00"/>
             <port name="halign" type="string" value="left"/>
@@ -51,7 +54,7 @@
         <node name="multiply1" position="9.00,9.00" prototype="math.multiply"/>
         <node name="range1" position="13.00,11.00" prototype="math.range"/>
         <node name="rect1" position="4.00,5.00" prototype="corevector.rect">
-            <port name="height" type="float" value="8.0"/>
+            <port name="height" type="float" value="7.0"/>
         </node>
         <node name="resample1" position="6.00,10.00" prototype="corevector.resample">
             <port name="method" type="string" value="amount"/>
@@ -91,8 +94,9 @@
         <conn input="combine1.list3" output="translate2"/>
         <conn input="colorize1.shape" output="ellipse2"/>
         <conn input="translate2.shape" output="colorize1"/>
-        <conn input="make_point1.x" output="divide1"/>
         <conn input="colorize2.shape" output="rect1"/>
         <conn input="align1.shape" output="colorize2"/>
+        <conn input="make_point1.x" output="add1"/>
+        <conn input="add1.value2" output="divide1"/>
     </node>
 </ndbx>
