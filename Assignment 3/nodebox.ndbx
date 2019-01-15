@@ -36,7 +36,7 @@
         </node>
         <node name="ellipse2" position="-3.00,6.00" prototype="corevector.ellipse"/>
         <node name="import_csv1" position="2.00,1.00" prototype="data.import_csv">
-            <port name="file" type="string" value="../../../../Users/herem/Desktop/park.csv"/>
+            <port name="file" type="string" value="park.csv"/>
         </node>
         <node name="lookup1" position="0.00,3.00" prototype="data.lookup">
             <port name="key" type="string" value="NAAM"/>
