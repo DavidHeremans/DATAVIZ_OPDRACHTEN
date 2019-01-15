@@ -1,0 +1,28 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+line{
+    stroke: red;
+}
+
+g.group0 path,
+g.group0 circle{
+    stroke: red;
+    fill:  none;
+}
+
+g.tick line {
+    stroke: blue;
+}
+
+g.tick text{
+    font-size: 12px;
+    fill: purple;
+}
