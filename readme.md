@@ -4,10 +4,13 @@ Datavisualisatie 2018-2019 - David Heremans
 Dit is gemaakt voor het vak datavisualisatie.
 
 ## Assignment 1
+Een poster van de meest gebruikte kattennamen in Toronto.
 
 ## Assignment 2
+Een kaart van Vlaanderen met al de officiele museums.
 
 ## Assignment 3
+De parken in de provincie Antwerpen met hun lengte en oppervlakte.
 
 ## Assignment 4
 
@@ -15,40 +18,3 @@ Dit is gemaakt voor het vak datavisualisatie.
 
 
 ---
-## Hulp bij het opmaken van de readme:
-
-
-Paragraphs are separated
-by a blank line.
-
-Two spaces at the end of a line  
-produces a line break.
-
-Text attributes _italic_, 
-**bold**, `monospace`.
-
-Horizontal rule:
-
----
-
-Bullet list:
-
-  * apples
-  * oranges
-  * pears
-
-Numbered list:
-
-  1. wash
-  2. rinse
-  3. repeat
-
-A [link][example].
-
-  [example]: http://example.com
-
-![Image](Image_icon.png "icon")
-
-> Markdown uses email-style > characters for blockquoting.
-
-Inline <abbr title="Hypertext Markup Language">HTML</abbr> is supported.
