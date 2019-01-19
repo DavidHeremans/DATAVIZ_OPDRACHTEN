@@ -54,11 +54,11 @@ var xAxis = d3.axisBottom(x);
             .append("circle")
                 .attr("cx",function(d){return x((d.x)/150); })
                 .attr("cy", function(d){return y((d.y)/200);})
-                .attr("fill","blue" )
+                .attr("fill","green" )
                 .attr("r", "5")
                 .on("mousemove", function(d){
         
-                    tooltip.style("opacity", "1").style("right", "px").style("top", "px");
+                    tooltip.style("opacity", "1").style("right", "px").style("color", "white").style("font-family", "sans-serif");
                     tooltip.html("Naam: "+ d.name+ ". "+d.product_description);
 
                 });

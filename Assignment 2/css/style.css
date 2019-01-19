@@ -6,33 +6,7 @@ body{
     height: 100%;
     width: 100%;
     margin: 0;
+    font-style: sans-serif;
+    background-color: black;
 }
 
-line{
-    stroke: red;
-}
-
-path{
-    stroke: green;
-    fill: none;
-    stroke-width: 2px;
-}
-
-g.group0 path,
-g.group0 circle{
-    stroke: red;
-    fill:  none;
-}
-g.hidden line,
-g.hidden path{
-    display: none;
-}
-
-g.tick line {
-    stroke: blue;
-}
-
-g.tick text{
-    font-size: 12px;
-    fill: purple;
-}
